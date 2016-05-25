@@ -1,0 +1,12 @@
+[
+{"id":1,"name":"pd_cond","geometryType":"GT_LINESTRING"},
+{"id":2,"name":"st_link","geometryType":"GT_MULTILINESTRING"},
+{"id":3,"name":"pt_link","geometryType":"GT_LINESTRING"},
+{"id":4,"name":"pd_link","geometryType":"GT_MULTILINESTRING"},
+{"id":5,"name":"pd_cabl","geometryType":"GT_LINESTRING"},
+{"id":6,"name":"pc_subs","geometryType":"GT_POINT"},
+{"id":7,"name":"pd_pole","geometryType":"GT_POINT"},
+{"id":8,"name":"pd_ptra","geometryType":"GT_POINT"},
+{"id":9,"name":"pd_vipo","geometryType":"GT_POINT"},
+{"id":10,"name":"st_cate","geometryType":"GT_POINT"}
+]
