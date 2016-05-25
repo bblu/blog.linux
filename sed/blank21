@@ -1,0 +1,2 @@
+/^$/d  #delete all the blank line and
+$!G    #the last line donot add a blank line
