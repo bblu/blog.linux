@@ -1,1 +1,30 @@
-#59.change the position of two charactor
+# 59 simple use of the x d and p
+## 59.1 exchange the position of two charactors
+## f/F to find the first char for change the x and p
+{start}	chang eworld
+
+
+## 59.2 exchange the position of two lines 
+## j/k to find the fiest line then dd and p
+2) line two
+1) line one
+3) line three
+
+## 59.3 yy and p to quickly make a copy of line
+
+# 60 yank and put correctly! with registers
+
+## _黑洞寄存器用于删除:_d{motion} is for delete!
+## "无名寄存器vim的缺省寄存器x s d c y命令都会覆盖其中的内容
+## "0复制专用寄存器仅保留命令y操作的内容
+{start}
+yiw  			collection = getCollection()
+jww	diw	"0P		process(somethingInTheWay, target);
+注意 "0p会导致粘贴内容在光标，之后不符合需要
+
+##有名寄存器（"a-"z）
+ayiw: yank a word in register "a
+
+bdd: delete a line to register "b
+
+
