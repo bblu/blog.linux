@@ -30,6 +30,10 @@ We’ve crafted some handsome templates for you to use. Go ahead and click 'Cont
 ***
 
 # 3.vim  
+## go to a line with number 123
+:123<CR>
+123G
+123gg
 ## 替换  
 :s/viv/sky/g 替换当前行所有 viv 为 sky  
 :%s/viv/sky/g（等同于 :g/viv/s//sky/g） 替换每一行中所有 viv 为 sky  
@@ -40,7 +44,7 @@ g[Uu]w 转换单词为大小写
 g~w     相互转换单词大小写
 ggguG  表示把整篇文章转换为小写  
 
-gg表示光标移动到文章开头，G表示选定范围为到文章结尾  
+gg表示光标移动到文章开头(第0行)，G表示选定范围为到文章结尾
 guu 将整行转换为小写  
 gUU 将整行转换为大写  
 g~~ 将一行中的大小写互转  
